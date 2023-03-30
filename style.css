@@ -1,5 +1,6 @@
 body,
 h1,
+h2,
 p,
 span {
   margin: 0;
@@ -35,7 +36,8 @@ span {
 }
 
 .modal > div {
-  margin-top: 6rem;
+  margin-top: 4rem;
+  padding: 1rem;
 }
 
 .title {
@@ -82,4 +84,15 @@ span {
 
 .buttons {
   margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.resultado {
+  width: 40ch;
+  word-break: break-all;
 }
